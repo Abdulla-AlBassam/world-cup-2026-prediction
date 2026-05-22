@@ -2,7 +2,7 @@
 
 Predict every match of the 2026 World Cup, then share the link.
 
-**Live: [world-cup-2026-prediction.vercel.app](https://world-cup-2026-prediction.vercel.app)**
+**Live: [world-cup-2026-prediction-kappa.vercel.app](https://world-cup-2026-prediction-kappa.vercel.app)**
 
 No signup. No tracking. The whole bracket is encoded into the URL, so sending the link is the share.
 
