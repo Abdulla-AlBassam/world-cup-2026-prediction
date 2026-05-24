@@ -123,7 +123,7 @@ function EditMode() {
         <Section
           step="02"
           title="Best thirds"
-          subtitle="Eight third-placed teams join the knockouts. You decide which eight."
+          subtitle="pick 8 of 12 to advance"
         >
           <ThirdPlacePicker />
         </Section>
@@ -131,7 +131,7 @@ function EditMode() {
         <Section
           step="03"
           title="Knockouts"
-          subtitle="Tap a team to send them through. Keep going until you have a champion."
+          subtitle="pick a winner in every match"
         >
           <KnockoutTree />
         </Section>
@@ -139,7 +139,7 @@ function EditMode() {
         <Section
           step="04"
           title="Awards"
-          subtitle="Five official trophies. Pick a player or type a name."
+          subtitle="pick a player or type a name"
         >
           <AwardsSection />
         </Section>
@@ -165,7 +165,7 @@ function ViewMode({
         <Section
           step="01"
           title="Group stage"
-          subtitle="Predicted finishing order in each group."
+          subtitle="predicted group order"
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {groupLetters.map((g) => (
@@ -174,15 +174,15 @@ function ViewMode({
           </div>
         </Section>
 
-        <Section step="02" title="Best thirds" subtitle="Predicted to advance.">
+        <Section step="02" title="Best thirds" subtitle="advancing thirds">
           <ThirdPlacePicker readOnly />
         </Section>
 
-        <Section step="03" title="Knockouts" subtitle="The predicted bracket.">
+        <Section step="03" title="Knockouts" subtitle="predicted bracket">
           <KnockoutTree readOnly />
         </Section>
 
-        <Section step="04" title="Awards" subtitle="Predicted winners.">
+        <Section step="04" title="Awards" subtitle="predicted winners">
           <AwardsSectionReadOnly />
         </Section>
       </div>

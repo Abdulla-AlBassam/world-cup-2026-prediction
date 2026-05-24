@@ -13,15 +13,7 @@ export function ThirdPlacePicker({ readOnly }: { readOnly?: boolean }) {
 
   return (
     <div className="rounded-xl border border-border bg-card p-6">
-      <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <div>
-          <h3 className="display text-2xl font-medium tracking-tight">
-            Best third-placed teams
-          </h3>
-          <p className="mt-1 text-sm text-muted-foreground">
-            Pick the 8 teams you think advance from the 12 third-placed sides.
-          </p>
-        </div>
+      <div className="mb-4 flex justify-end">
         <span className="font-sans text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
           {advancing.length} of 8
         </span>
