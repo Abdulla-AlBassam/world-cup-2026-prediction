@@ -95,10 +95,6 @@ function Landing({ onStart }: { onStart: () => void }) {
           <FlagCarousel />
         </div>
       </section>
-
-      <footer className="px-6 py-6 text-center font-sans text-[10px] uppercase tracking-[0.24em] text-muted-foreground md:px-12">
-        Free · No signup · No tracking
-      </footer>
     </div>
   );
 }
