@@ -111,7 +111,7 @@ function EditMode() {
         <Section
           step="01"
           title="Group stage"
-          subtitle="Rank each group 1 to 4. Top two go straight through."
+          subtitle="rank each group 1-4"
         >
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {groupLetters.map((g) => (
@@ -249,7 +249,7 @@ function Section({
 }) {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12 md:px-12 md:py-16">
-      <header className="mb-8 flex flex-col gap-2 border-b border-border pb-6 md:flex-row md:items-end md:justify-between md:gap-8">
+      <header className="mb-8 flex flex-col gap-2 border-b border-border pb-6 md:flex-row md:items-baseline md:gap-6">
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.28em] text-muted-foreground">
             {step}
