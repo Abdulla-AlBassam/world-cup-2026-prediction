@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Team } from "@/lib/teams";
 
-type Size = "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
+type Size = "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl";
 
 const sizes: Record<Size, string> = {
   xs: "h-3 w-[18px]",
@@ -10,6 +10,7 @@ const sizes: Record<Size, string> = {
   lg: "h-7 w-11",
   xl: "h-10 w-16",
   "2xl": "h-16 w-24",
+  "3xl": "h-20 w-32",
 };
 
 export function Flag({

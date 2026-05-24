@@ -65,10 +65,6 @@ export function Builder() {
 function Landing({ onStart }: { onStart: () => void }) {
   return (
     <div className="relative flex min-h-screen flex-col">
-      <header className="px-6 pt-8 md:px-12">
-        <BrandLine />
-      </header>
-
       <main className="flex flex-1 flex-col justify-center px-6 py-12 md:px-12">
         <div className="mx-auto w-full max-w-5xl">
           <div className="flex flex-col items-start gap-6">
@@ -95,10 +91,7 @@ function Landing({ onStart }: { onStart: () => void }) {
       </main>
 
       <section className="border-t border-border bg-paper">
-        <div className="mx-auto max-w-7xl">
-          <div className="px-6 pb-2 pt-6 font-sans text-[10px] uppercase tracking-[0.28em] text-muted-foreground md:px-12">
-            All 48 nations
-          </div>
+        <div className="mx-auto max-w-7xl py-6">
           <FlagCarousel />
         </div>
       </section>

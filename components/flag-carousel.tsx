@@ -13,10 +13,10 @@ export function FlagCarousel() {
         {doubled.map((team, idx) => (
           <div
             key={`${team.id}-${idx}`}
-            className="flex flex-col items-center gap-1.5"
+            className="flex flex-col items-center gap-2"
           >
-            <Flag team={team} size="xl" />
-            <span className="font-sans text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+            <Flag team={team} size="3xl" />
+            <span className="font-sans text-xs uppercase tracking-[0.18em] text-muted-foreground">
               {team.id}
             </span>
           </div>
