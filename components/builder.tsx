@@ -82,10 +82,6 @@ function Landing({ onStart }: { onStart: () => void }) {
               <br />
               <span className="text-[var(--accent-red)]">26</span>
             </h1>
-            <p className="max-w-xl text-base text-muted-foreground md:text-lg">
-              Predict every match. Every group. Every award. Share the link with
-              your friends and see who calls it first.
-            </p>
             <Button
               size="lg"
               className="mt-2 gap-2 rounded-full px-7 py-6 text-base"
