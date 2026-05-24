@@ -88,14 +88,6 @@ function Slot({
           <span className="flex-1 truncate text-sm font-medium">
             {team.name}
           </span>
-          <span
-            className={cn(
-              "font-mono text-[10px]",
-              selected ? "text-background/70" : "text-muted-foreground",
-            )}
-          >
-            {team.id}
-          </span>
         </>
       ) : (
         <span className="text-xs italic text-muted-foreground">

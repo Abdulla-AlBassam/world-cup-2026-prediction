@@ -245,7 +245,7 @@ function Section({
 }) {
   return (
     <section className="mx-auto max-w-7xl px-6 py-12 md:px-12 md:py-16">
-      <header className="mb-8 flex flex-col gap-2 border-b border-border pb-6 md:flex-row md:items-baseline md:gap-6">
+      <header className="mb-8 flex flex-col gap-2 border-b border-border pb-6 md:flex-row md:items-end md:gap-6">
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.28em] text-muted-foreground">
             {step}
@@ -254,7 +254,9 @@ function Section({
             {title}
           </h2>
         </div>
-        <p className="max-w-md text-sm text-muted-foreground">{subtitle}</p>
+        <p className="max-w-md text-sm text-muted-foreground md:pb-2">
+          {subtitle}
+        </p>
       </header>
       {children}
     </section>
